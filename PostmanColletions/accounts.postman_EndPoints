@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "04cf4eea-2743-4b9f-9be1-801c998948d9",
+		"name": "accounts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8095/accounts/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8095/accounts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8095",
+					"path": [
+						"accounts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8095/accounts/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"number\":\"1956456789453234543\",\r\n    \"lineAvailable\":1000.0,\r\n    \"lineUsed\":950.0,\r\n    \"balancePast\":50.0,\r\n    \"idClient\":\"62117435e4946b141471d153\",\r\n    \"idProducts\":\"620197916cb8273fb80c149c\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8095/accounts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8095",
+					"path": [
+						"accounts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8095/accounts/getById/621173c387b50c174322cc16",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8095/accounts/getById/621173c387b50c174322cc16",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8095",
+					"path": [
+						"accounts",
+						"getById",
+						"621173c387b50c174322cc16"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
