@@ -32,7 +32,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"number\":\"1956456789453234543\",\r\n    \"lineAvailable\":1000.0,\r\n    \"lineUsed\":950.0,\r\n    \"balancePast\":50.0,\r\n    \"idClient\":\"62117435e4946b141471d153\",\r\n    \"idProducts\":\"620197916cb8273fb80c149c\"\r\n}",
+					"raw": "{\r\n    \"number\":\"001105900300343567\",\r\n    \"lineAvailable\":0.0,\r\n    \"lineUsed\":950.0,\r\n    \"balancePast\":0.0,\r\n    \"idClient\":\"620a79844040b66b69555949\",\r\n    \"idProducts\":\"620ff2eae0137b01a59d637b\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -70,6 +70,93 @@
 						"accounts",
 						"getById",
 						"621173c387b50c174322cc16"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8095/accounts/saveDeposit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"62140da494b669051793f90a\",\r\n    \"lineUsed\":950.0,\r\n    \"amount\":50.00,\r\n    \"idClient\":\"620a79844040b66b69555949\",\r\n    \"idProducts\":\"620ff2eae0137b01a59d637b\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8095/accounts/saveDeposit",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8095",
+					"path": [
+						"accounts",
+						"saveDeposit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8095/accounts/saveDeposit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"62140da494b669051793f90a\",\r\n    \"amount\":50.00\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8095/accounts/saveDeposit",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8095",
+					"path": [
+						"accounts",
+						"saveDeposit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8095/accounts/saveWithdrawal",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"62140da494b669051793f90a\",\r\n    \"amount\":550.00\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8095/accounts/saveWithdrawal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8095",
+					"path": [
+						"accounts",
+						"saveWithdrawal"
 					]
 				}
 			},
