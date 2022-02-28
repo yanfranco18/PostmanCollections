@@ -32,7 +32,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nameProduct\":\"Plazo Fijo\",\r\n    \"numberCard\":\"12345678912\",\r\n    \"typeProduct\":\"Activos\",\r\n    \"accountNumber\":\"191123445906\"\r\n}",
+					"raw": "{\r\n    \"description\":\"Tarjeta debito\",\r\n    \"number\":\"457878776666\",\r\n    \"type\":\"Activo\",\r\n    \"maxMovements\":0,\r\n    \"commission\":0\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -97,7 +97,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8093/products/6201a1836cb8273fb80c149e",
+					"raw": "http://localhost:8093/products/620196df2d5e1a73130d20e7",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -105,7 +105,7 @@
 					"port": "8093",
 					"path": [
 						"products",
-						"6201a1836cb8273fb80c149e"
+						"620196df2d5e1a73130d20e7"
 					]
 				}
 			},

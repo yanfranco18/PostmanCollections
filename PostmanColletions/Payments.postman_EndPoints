@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "    {\r\n    \"amountPay\":200.00,\r\n    \"nameThird\":\"Luis Ingaruca\",\r\n    \"numberIdentity\":44335566,\r\n    \"idAccount\": \"621173c387b50c174322cc16\"\r\n    }",
+					"raw": "    {\r\n    \"amountPay\":200.00,\r\n    \"nameThird\":\"Luis Ingaruca\",\r\n    \"numberIdentity\":44335566,\r\n    \"idAccount\": \"999\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"

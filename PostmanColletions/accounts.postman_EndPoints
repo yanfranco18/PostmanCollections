@@ -32,7 +32,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"number\":\"001105900300343567\",\r\n    \"lineAvailable\":0.0,\r\n    \"lineUsed\":950.0,\r\n    \"balancePast\":0.0,\r\n    \"idClient\":\"620a79844040b66b69555949\",\r\n    \"idProducts\":\"620ff2eae0137b01a59d637b\"\r\n}",
+					"raw": "{\r\n    \"number\":\"0011048095900300343567\",\r\n    \"lineAvailable\":0.0,\r\n    \"lineUsed\":900.0,\r\n    \"balancePast\":50.0,\r\n    \"amount\":0.0,\r\n    \"countMovements\":0,\r\n    \"idClient\":\"621d24ddb2e55060bcacd2d6\",\r\n    \"idProducts\":\"621d2505bc540f5891864b4d\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -60,7 +60,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8095/accounts/getById/621173c387b50c174322cc16",
+					"raw": "http://localhost:8095/accounts/getById/621ced8b418f6a6534193d18",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -69,7 +69,7 @@
 					"path": [
 						"accounts",
 						"getById",
-						"621173c387b50c174322cc16"
+						"621ced8b418f6a6534193d18"
 					]
 				}
 			},
@@ -140,7 +140,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": \"62140da494b669051793f90a\",\r\n    \"amount\":550.00\r\n}",
+					"raw": "{\r\n    \"id\": \"62140da494b669051793f90a\",\r\n    \"amount\":50000.00\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -157,6 +157,27 @@
 					"path": [
 						"accounts",
 						"saveWithdrawal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8095/accounts/search/0011048095900300343567",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8095/accounts/search/0011048095900300343567",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8095",
+					"path": [
+						"accounts",
+						"search",
+						"0011048095900300343567"
 					]
 				}
 			},

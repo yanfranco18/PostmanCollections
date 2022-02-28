@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "dd2ed058-bed4-4dda-a3c7-7f6a90550dee",
+		"name": "debit",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8097/debit/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8097/debits",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8097",
+					"path": [
+						"debits"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8097/debits",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cardNumber\":\"4551346512340987\",\r\n    \"idClient\":\"621d24ddb2e55060bcacd2d6\",\r\n    \"numberAccount\": \"0011048095900300343567\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8097/debits",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8097",
+					"path": [
+						"debits"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

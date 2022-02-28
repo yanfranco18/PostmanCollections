@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8094/clients/",
+					"raw": "http://localhost:8094/clients/getById/621d24ddb2e55060bcacd2d6",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -19,7 +19,8 @@
 					"port": "8094",
 					"path": [
 						"clients",
-						""
+						"getById",
+						"621d24ddb2e55060bcacd2d6"
 					]
 				}
 			},
@@ -32,7 +33,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nameClient\":\"Industrias Malet\",\r\n    \"typeClient\":\"PYME\",\r\n    \"identityDocument\":\"2334422334\",\r\n    \"phoneNumber\": \"966888777\"\r\n}",
+					"raw": "{\r\n    \"nameClient\":\"yan loayza\",\r\n    \"typeClient\":\"Activo\",\r\n    \"identityDocument\":\"23456009231\",\r\n    \"phoneNumber\": \"996878707\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -168,6 +169,25 @@
 					"path": [
 						"clients",
 						"620a799f4040b66b6955594a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8094/clients/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8094/clients",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8094",
+					"path": [
+						"clients"
 					]
 				}
 			},
