@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "8d73996f-38b4-4ea1-9d27-35ae062ec91c",
+		"name": "yanki",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8099/yankis",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8099/yankis",
+					"host": [
+						"localhost"
+					],
+					"port": "8099",
+					"path": [
+						"yankis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8099/yankis/byid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8099/yankis/621ead35cc6f6c49b2bc07fa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8099",
+					"path": [
+						"yankis",
+						"621ead35cc6f6c49b2bc07fa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8099/yankis",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"identityDocument\": \"34567898\",\r\n        \"phoneNumber\": \"995678707\",\r\n        \"amount\": 100.5,\r\n        \"email\": \"luis@gmail.com\",\r\n        \"imeiNumber\": \"0129956787072345\",\r\n        \"idDebitCardNumber\": \"621fe9f21507715bb5caa647\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8099/yankis",
+					"host": [
+						"localhost"
+					],
+					"port": "8099",
+					"path": [
+						"yankis"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

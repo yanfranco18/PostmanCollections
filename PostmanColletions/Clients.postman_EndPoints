@@ -33,7 +33,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nameClient\":\"yan loayza\",\r\n    \"typeClient\":\"Activo\",\r\n    \"identityDocument\":\"23456009231\",\r\n    \"phoneNumber\": \"996878707\"\r\n}",
+					"raw": "{\r\n    \"nameClient\":\"Agp Peru\",\r\n    \"typeClient\":\"Pasivo\",\r\n    \"identityDocument\":\"10205678967\",\r\n    \"phoneNumber\": \"987654567\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
