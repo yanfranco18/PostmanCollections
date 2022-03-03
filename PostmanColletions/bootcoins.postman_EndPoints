@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "5f73a2ff-2ab0-4b79-8429-987b1f0026b6",
+		"name": "bootcoins",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8100/bootcoins",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8100/bootcoins",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"bootcoins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8100/bootcoins",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tasaCompra\": 0.025,\r\n    \"tasaVenta\": 0.03,\r\n    \"tipoMoneda\": \"Bootcoin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8100/bootcoins",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"bootcoins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8100/bootcoins/getById/6220e08d33310240261d19aa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8100/bootcoins/getById/6220e08d33310240261d19aa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"bootcoins",
+						"getById",
+						"6220e08d33310240261d19aa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8100/bootcoins/6220e08d33310240261d19aa",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tasaCompra\": 0.02,\r\n    \"tasaVenta\": 0.035,\r\n    \"tipoMoneda\": \"Bootcoin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8100/bootcoins/6220e08d33310240261d19aa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"bootcoins",
+						"6220e08d33310240261d19aa"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

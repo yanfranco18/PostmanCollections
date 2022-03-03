@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "401dd588-047f-46c8-b1fc-6a11d4a99f75",
+		"name": "BootcoinTransaction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8101/purchaseTransaction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8101/purchaseTransaction",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8101",
+					"path": [
+						"purchaseTransaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8101/purchaseTransaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"originNumber\": \"908765354\",\r\n    \"destinationNumber\": \"995678707\",\r\n    \"amountBootcoin\":20.0,\r\n    \"paymentMode\": \"Transfer\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8101/purchaseTransaction",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8101",
+					"path": [
+						"purchaseTransaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8101/approveTransaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numberTransaction\": \"12346\",\r\n    \"idPurchaseTransaction\": \"62210d52a206442f25af12cf\",\r\n    \"status\": \"SUCCESSFUL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8101/approveTransaction",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8101",
+					"path": [
+						"approveTransaction"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
