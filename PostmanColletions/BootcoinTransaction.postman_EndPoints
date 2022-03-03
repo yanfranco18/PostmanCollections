@@ -31,7 +31,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"originNumber\": \"908765354\",\r\n    \"destinationNumber\": \"995678707\",\r\n    \"amountBootcoin\":20.0,\r\n    \"paymentMode\": \"Transfer\"\r\n}",
+					"raw": "{\r\n    \"originNumber\": \"908765354\",\r\n    \"destinationNumber\": \"995678707\",\r\n    \"amountSol\": 250.0,\r\n    \"idBootcoinTasaCompra\": \"6221372c23eecd0603893daa\",\r\n    \"paymentMode\": \"Transfer\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

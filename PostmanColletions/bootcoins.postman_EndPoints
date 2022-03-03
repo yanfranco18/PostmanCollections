@@ -31,7 +31,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"tasaCompra\": 0.025,\r\n    \"tasaVenta\": 0.03,\r\n    \"tipoMoneda\": \"Bootcoin\"\r\n}",
+					"raw": "{\r\n    \"tasaCompra\": 5.0,\r\n    \"tasaVenta\": 3.0,\r\n    \"tipoMoneda\": \"Bootcoin\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
